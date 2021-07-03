@@ -1,0 +1,32 @@
+{
+  "name": "hexo-deployer-rss3",
+  "version": "0.0.1",
+  "description": "RSS3 deployer plugin for Hexo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaturalSelectionLabs/hexo-deployer-rss3.git"
+  },
+  "keywords": [
+    "hexo",
+    "rss3"
+  ],
+  "author": "NaturalSelectionLabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/issues"
+  },
+  "homepage": "https://github.com/NaturalSelectionLabs/hexo-deployer-rss3#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-hexo": "^4.1.0"
+  },
+  "dependencies": {
+    "hexo-fs": "^3.1.0",
+    "hexo-util": "^2.5.0",
+    "rss3": "^0.3.11"
+  }
+}
