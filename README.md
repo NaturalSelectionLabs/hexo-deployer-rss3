@@ -2,6 +2,20 @@
 
 RSS3 deployer plugin for Hexo.
 
+## 🎁 Install
+
+``` sh
+npm install hexo-deployer-rss3
+```
+
+or
+
+``` sh
+yarn add hexo-deployer-rss3
+```
+
+## ⚙️ Config
+
 ``` yaml
 deploy:
 - type: rss3
