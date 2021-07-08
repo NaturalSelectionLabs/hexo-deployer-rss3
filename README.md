@@ -32,8 +32,14 @@ yarn add hexo-deployer-rss3
     
     We do not promise any accessibility of files Larger than 50 MB. DO NEVER abuse it.
 
+    Only the post html file itself could be deployed to IPFS currently. 
+    Please confirm if your theme can render correctly in single-file mode (like open generated html files after `hexo g`) 
+    before enabling the `ipfs/deploy` option.
+
 
 ## ⚙️ Config
+
+Add hexo-deployer-rss3 specified configurations info your site's `_config.yml` file.
 
 ``` yaml
 deploy:
