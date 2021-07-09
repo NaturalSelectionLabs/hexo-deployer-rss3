@@ -2,6 +2,10 @@
 
 RSS3 deployer plugin for Hexo.
 
+## 📝 Docs
+
+English [简体中文](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/tree/develop/docs/zh_CN/start.md)
+
 ## 🎁 Install
 
 ``` sh
@@ -18,7 +22,7 @@ yarn add hexo-deployer-rss3
 
 1. What means for `privateKey` field in config ?
 
-    It's the only thing marking you as the full controller of a RSS3 profile. Remember to take good care of it. 
+    It's the only thing marking you as the full controller of a RSS3 persona. Remember to take good care of it. 
     
     Theoretically you can use any ETH-compatible private keys, but we prefer you to generate one using [Re: ID](https://github.com/NaturalSelectionLabs/Re-ID).
     
@@ -26,7 +30,7 @@ yarn add hexo-deployer-rss3
 
 2. What if I don't have any IPFS gateway accounts ?
   
-    You can manually choose whether publish to IPFS or not by changing `deploy` field.
+    You can manually choose whether publish to IPFS or not by changing `ipfs/deploy` field.
     
     We also provide one pair of api key for you to enjoy RSS3, which has been provided in below demo.
     
@@ -37,19 +41,19 @@ yarn add hexo-deployer-rss3
     before enabling the `ipfs/deploy` option.
 
 
-## ⚙️ Config
+## ⚙ Config
 
 Add hexo-deployer-rss3 specified configurations info your site's `_config.yml` file.
 
 ``` yaml
-deploy:
+deploy: # definitation root for all deployers
 - type: rss3
-  endpoint: https://hub.rss3.io
-  privateKey: 47e18d6c386898b424025cd9db446f779ef24ad33a26c499c87bb3d9372540ba
-  ipfs:
-    deploy: true
-    gateway: pinata
-    api:
+  endpoint: https://hub.rss3.io # link to a RSS3 hub
+  privateKey: 47e18d6c386898b424025cd9db446f779ef24ad33a26c499c87bb3d9372540ba # your private key, 64 chars
+  ipfs: # ipfs specified configurations
+    deploy: true # deploy to IPFS
+    gateway: pinata # IPFS API gateway
+    api: # IPFS gateway related auth credentials
       key: d693df715d3631e489d6
       secret: ee8b74626f12b61c1a4bde3b8c331ad390567c86ba779c9b18561ee92c1cbff0
 ```
