@@ -20,7 +20,7 @@ npm install hexo-deployer-rss3
 yarn add hexo-deployer-rss3
 ```
 
-您需要 Node v16 或更新的版本来运行它，旧版本无法辨认 `?.` ，因而会导致 `Unexpected token` 错误。
+您需要 Node v14 或更新的版本来运行它，旧版本无法辨认 `?.` ，因而会导致 `Unexpected token` 错误。详情请参见 [可选链操作符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Optional_chaining) 。
 
 ## 💎 在开始之前...
 

@@ -20,7 +20,7 @@ or
 yarn add hexo-deployer-rss3
 ```
 
-You may need Node v16 or later to run it, older versions cannot recognize `?.` and thus would cause `Unexpected token` error.
+You need Node v14 or later to run it properly, old versions cannot recognize `?.` and thus would cause `Unexpected token` error. Referrer to [Optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) for more information.
 
 ## 💎 Before start...
 
