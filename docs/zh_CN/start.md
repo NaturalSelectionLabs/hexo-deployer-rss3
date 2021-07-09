@@ -28,7 +28,7 @@ yarn add hexo-deployer-rss3
 
    这样，您也可以简单清楚地看到您发送的内容。
 
-2. 如果我没有 IPFS 网管账户怎么办 ?
+2. 如果我没有 IPFS 网关的账户怎么办 ?
 
    您可以通过修改 `ipfs/deploy` 选项来选择是否将内容发送到 IPFS 网络。
 
