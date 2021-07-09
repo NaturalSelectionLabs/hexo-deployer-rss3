@@ -20,6 +20,8 @@ or
 yarn add hexo-deployer-rss3
 ```
 
+You may need Node v16 or later to run it, older versions cannot recognize `?.` and thus would cause `Unexpected token` error.
+
 ## 💎 Before start...
 
 1. What means for `privateKey` field in config ?

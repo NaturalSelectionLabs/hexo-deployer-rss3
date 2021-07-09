@@ -20,6 +20,8 @@ npm install hexo-deployer-rss3
 yarn add hexo-deployer-rss3
 ```
 
+您需要 Node v16 或更新的版本来运行它，旧版本无法辨认 `?.` ，因而会导致 `Unexpected token` 错误。
+
 ## 💎 在开始之前...
 
 1. 配置文件中的 `privateKey` 是什么 ?
