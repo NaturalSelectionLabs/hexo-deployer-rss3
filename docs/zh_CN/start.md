@@ -6,6 +6,8 @@ Hexo 的 RSS3 部署插件.
 
 [English](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/blob/develop/README.md) 简体中文
 
+关于 Hexo 部署器的使用方法，您可以参见 Hexo 的 [一键部署](https://hexo.io/zh-cn/docs/one-command-deployment) 文档。
+
 ## 🎁 安装
 
 ``` sh
