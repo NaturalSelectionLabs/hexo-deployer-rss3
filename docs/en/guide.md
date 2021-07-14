@@ -5,7 +5,7 @@
 You need to prepare.
 
 1. a private key. Theoretically any Ethernet-compatible private key will work, but to get the most out of RSS3 and experience our new product and sharing, I'd like to recommend our [Re: ID](https://github.com/NaturalSelectionLabs/Re-ID) project. You can get a more stable release at [Chrome Web Store](https://chrome.google.com/webstore/detail/re-id/hcioafpcjhamfeiegnnahpjnmnlilkil).
-2. NodeJS V14 and above. Due to the use of the `? ` operator, which is not recognized on older Node versions, you will need to use NodeJS V14 and above to deploy properly. Many CI/CDs may still default to V12, and you should be able to change the relevant parameter options. For example, in CloudFlare Pages, you can specify the environment variable `NODE_VERSION` as `16` to use Node V16.
+2. NodeJS V14 and above. Due to the use of the `?.` operator, which is not recognized on older Node versions, you will need to use NodeJS V14 and above to deploy properly. Many CI/CDs may still default to V12, and you should be able to change the relevant parameter options. For example, in CloudFlare Pages, you can specify the environment variable `NODE_VERSION` as `16` to use Node V16.
 
 If deploying to IPFS, you will also need to prepare
 
