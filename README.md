@@ -4,7 +4,9 @@ RSS3 deployer plugin for Hexo.
 
 ## 📝 Docs
 
-English [简体中文](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/tree/develop/docs/zh_CN/start.md)
+- English 
+- [简体中文](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/tree/develop/docs/zh_CN/start.md) 
+- [正體中文](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/tree/develop/docs/zh_TW/start.md)
 
 For Hexo generators' using instructions, you can refer to [One-Command Deployment - Hexo](https://hexo.io/docs/one-command-deployment.html) 
 
