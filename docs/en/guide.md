@@ -9,8 +9,8 @@ You need to prepare.
 
 If deploying to IPFS, you will also need to prepare
 
-1. a pair of keys for the IPFS API gateway. We provide an official pair of keys (presented in the sample configuration below) for you to enjoy the new world of RSS3. But remember, don't misuse the key pair. 2.
-Pages that can be rendered independently. You can check if there are any problems with style, interaction, etc. by opening the finished page of `hexo g` directly in your browser and seeing if it renders properly.
+1. a pair of keys for the IPFS API gateway. We provide an official pair of keys (presented in the sample configuration below) for you to enjoy the new world of RSS3. But remember, don't misuse the key pair. 
+2. Pages that can be rendered independently. You can check if there are any problems with style, interaction, etc. by opening the finished page of `hexo g` directly in your browser and seeing if it renders properly.
 
 ## Caution
 
@@ -18,7 +18,7 @@ Due to a design flaw, you need to first generate static files and temporary cach
 
 ## Start deployment
 
-Get a private key.
+1. Get a private key.
 
     The private key is a unique identifier that identifies you as the controller of an RSS3 persona. Please remember to keep it safe and do not make it public.
 
