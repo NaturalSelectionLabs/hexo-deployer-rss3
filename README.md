@@ -10,6 +10,8 @@ RSS3 deployer plugin for Hexo.
 
 For Hexo generators' using instructions, you can refer to [One-Command Deployment - Hexo](https://hexo.io/docs/one-command-deployment.html) 
 
+A detailed tutorial can be found at [Deploying Hexo Blog to RSS3](https://github.com/NaturalSelectionLabs/hexo-deployer-rss3/tree/develop/docs/en/guide.md)
+
 ## 🎁 Install
 
 ``` sh
