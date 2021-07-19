@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-rss3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "RSS3 deployer plugin for Hexo.",
   "main": "index.js",
   "scripts": {
