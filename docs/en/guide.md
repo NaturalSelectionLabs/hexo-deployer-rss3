@@ -51,8 +51,8 @@ Due to a design flaw, you need to first generate static files and temporary cach
         deploy: true # Whether to deploy to IPFS
         gateway: pinata # IPFS API gateway
         api: # IPFS gateway-related authentication content
-          key: d693df715d3631e489d6
-          secret: ee8b74626f12b61c1a4bde3b8c331ad390567c86ba779c9b18561ee92c1cbff0
+          key: 74791336243c5c676fe0
+          secret: 2c46a3249a3f4dce9b4fafd55304985ef14abdcd44a4f06fb0f3a4133e80c1d0
     ```
 
     Please note to replace the private key in the `privateKey` paragraph above with your own content. Alternatively, if you do not need to deploy to IPFS, then you can set `ipfs/deploy` to false.
