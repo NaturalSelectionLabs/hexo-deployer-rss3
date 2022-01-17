@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/NaturalSelectionLabs/hexo-deployer-rss3#readme",
   "devDependencies": {
-    "eslint": "^7.29.0",
+    "eslint": "^8.7.0",
     "eslint-config-hexo": "^4.1.0"
   },
   "dependencies": {
