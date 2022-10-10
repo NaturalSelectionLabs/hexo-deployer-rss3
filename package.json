@@ -32,7 +32,7 @@
     "eslint-config-hexo": "^4.1.0"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.1.2",
     "form-data": "^4.0.0",
     "hexo-fs": "^3.1.0",
     "hexo-util": "^2.5.0",
